@@ -7,4 +7,8 @@
     <color name="tittleColor">#446cdc</color>
     <color name="summaryColor">#2dc6fd</color>
     <color name="clickColor">#9748af</color>
+    <color name="backgroundOrange">#f1794e</color>
+    <color name="backgroundGreen">#78ae4f</color>
+    <color name="backgroundRed">#c4434c</color>
+
 </resources>

@@ -4,15 +4,15 @@
         <ListPreference
             android:entries="@array/entries"
             android:entryValues="@array/entry_values"
-            android:key="list"
+            android:key="colors_list"
+            android:defaultValue="0"
             android:layout="@layout/item_layout"
-            android:summary="One"
-            android:title="List Preference" />
+            android:title="Change Color" />
         <EditTextPreference
             android:key="edit_text"
+            android:defaultValue="Type your name"
             android:layout="@layout/item_layout"
-            android:summary="Edit Text Summary"
-            android:title="Edit Text Title" />
+            android:title="Login" />
         <CheckBoxPreference
             android:key="check_box"
             android:layout="@layout/item_layout"
@@ -21,7 +21,7 @@
         <SwitchPreference
             android:key="switcher"
             android:layout="@layout/item_layout"
-            android:summary="Just Do It"
-            android:title="switcher" />
+            android:summary="Just Switch It"
+            android:title="Switcher" />
     </PreferenceCategory>
 </PreferenceScreen>

@@ -12,7 +12,6 @@ public class PreferenceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         createSettingsFragment(savedInstanceState);
-
     }
 
     private void createSettingsFragment(Bundle savedInstanceState) {
